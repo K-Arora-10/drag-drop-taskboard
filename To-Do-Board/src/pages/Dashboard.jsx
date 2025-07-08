@@ -4,7 +4,7 @@ import { useAuth } from "../context/AuthContext";
 import axios from "../api/axios";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://drag-drop-taskboard-3vr0.onrender.com/");
 
 const columns = [
   { id: "todo", label: "Todo" },
