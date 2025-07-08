@@ -18,6 +18,7 @@ function App() {
           <Route path="/" element={<Navigate to="/dashboard" />} />
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<PrivateRoute><Dashboard/></PrivateRoute>} />
+          <Route path="/login" element={<Login/>} />
         </Routes>
       </Router>
     </AuthProvider>
