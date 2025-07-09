@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://drag-drop-taskboard-4erz.onrender.com',
+  baseURL: 'http://localhost:5000',
 });
 
 instance.interceptors.request.use((config) => {
